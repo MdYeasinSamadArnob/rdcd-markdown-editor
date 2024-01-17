@@ -1,1 +1,14 @@
-CI='' npm run build
+[build]
+  command = "npm run build --legacy-peer-deps"  # Adjust the build command based on your project setup
+  publish = "build"          # Adjust the publish directory based on your build output
+
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
