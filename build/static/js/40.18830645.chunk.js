@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-markdown-editor"]=this["webpackJsonpreact-markdown-editor"]||[]).push([[40],{138:function(r,e,t){"use strict";t.r(e),t.d(e,"diff",(function(){return i}));var n={"+":"inserted","-":"deleted","@":"meta"};const i={name:"diff",token:function(r){var e=r.string.search(/[\t ]+?$/);if(!r.sol()||0===e)return r.skipToEnd(),("error "+(n[r.string.charAt(0)]||"")).replace(/ $/,"");var t=n[r.peek()]||r.skipToEnd();return-1===e?r.skipToEnd():r.pos=e,t}}}}]);
+//# sourceMappingURL=40.18830645.chunk.js.map
