@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build --legacy-peer-deps"  # Adjust the build command based on your project setup
+  command = "npm run build"  # Adjust the build command based on your project setup
   publish = "build"          # Adjust the publish directory based on your build output
 
 
